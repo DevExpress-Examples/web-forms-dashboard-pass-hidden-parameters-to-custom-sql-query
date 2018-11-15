@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [WebForm1.aspx](./CS/ASPxDashboard_CustomParameters/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/ASPxDashboard_CustomParameters/WebForm1.aspx))
+* [WebForm1.aspx.cs](./CS/ASPxDashboard_CustomParameters/WebForm1.aspx.cs) (VB: [WebForm1.aspx](./VB/ASPxDashboard_CustomParameters/WebForm1.aspx))
+<!-- default file list end -->
 # ASPxDashboard - How to pass a hidden dashboard parameter to a custom SQL query
 
 
