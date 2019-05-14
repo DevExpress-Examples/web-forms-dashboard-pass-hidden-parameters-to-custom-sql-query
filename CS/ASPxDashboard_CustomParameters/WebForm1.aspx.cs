@@ -9,6 +9,7 @@ namespace ASPxDashboard_CustomParameters
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ASPxDashboard1.AllowExecutingCustomSql = true;
             ASPxDashboard1.DashboardXmlPath = Server.MapPath("App_Data/dashboard1.xml");
         }
         protected void ASPxDashboard1_SetInitialDashboardState(object sender, SetInitialDashboardStateEventArgs e)
