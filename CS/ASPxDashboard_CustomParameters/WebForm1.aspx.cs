@@ -1,5 +1,6 @@
 ﻿using DevExpress.DashboardCommon;
 using DevExpress.DashboardWeb;
+using DevExpress.DataAccess.Web;
 using System;
 using System.Linq;
 
@@ -9,29 +10,18 @@ namespace ASPxDashboard_CustomParameters
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ASPxDashboard1.AllowExecutingCustomSql = true;
-            ASPxDashboard1.DashboardXmlPath = Server.MapPath("App_Data/dashboard1.xml");
-        }
-        protected void ASPxDashboard1_SetInitialDashboardState(object sender, SetInitialDashboardStateEventArgs e)
-        {
-            e.InitialState = InitializeDashboardState();
+            DashboardFileStorage dashboardFileStorage = new DashboardFileStorage("~/App_Data/Dashboards");
+            ASPxDashboard1.SetConnectionStringsProvider(new ConfigFileConnectionStringsProvider());
+            ASPxDashboard1.SetDashboardStorage(dashboardFileStorage);
         }
 
-        public DashboardState InitializeDashboardState()
-        {
-            DashboardState dashboardState = new DashboardState();
-            DashboardParameterState parameterState =
-                new DashboardParameterState("CustomerIdDashboardParameter", "XXX", typeof(string));
-            dashboardState.Parameters.Add(parameterState);
-            return dashboardState;
-        }
 
         protected void ASPxDashboard1_CustomParameters(object sender, CustomParametersWebEventArgs e)
         {
             var custIDParameter = e.Parameters.FirstOrDefault(p => p.Name == "CustomerIdDashboardParameter");
             if (custIDParameter != null)
             {
-                custIDParameter.Value = "AROUT";
+                custIDParameter.Value = "ALFKI";
             }
         }
     }

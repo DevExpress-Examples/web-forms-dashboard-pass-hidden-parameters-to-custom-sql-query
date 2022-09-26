@@ -1,1 +1,0 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="ASPxDashboard_CustomParameters.Global_asax" Language="C#" %>
