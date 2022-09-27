@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" 
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="WebForm1.aspx.vb" 
     Inherits="ASPxDashboard_CustomParameters.WebForm1" %>
 
 <%@ Register Assembly="DevExpress.Dashboard.v19.1.Web.WebForms, Version=19.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
