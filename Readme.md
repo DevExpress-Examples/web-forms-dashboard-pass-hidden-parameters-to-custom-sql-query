@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Dashboard for Web Forms - How to pass a hidden dashboard parameter to a custom SQL query
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t491903/)**
+**[[Run Online]](https://codecentral.devexpress.com/128579884/)**
 <!-- run online end -->
 
 This example shows how to pass a hidden [dashboard parameter](https://docs.devexpress.com/Dashboard/117062) to a [custom SQL query](https://docs.devexpress.com/Dashboard/117193).
