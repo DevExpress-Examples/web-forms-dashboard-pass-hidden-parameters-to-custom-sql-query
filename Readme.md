@@ -14,7 +14,7 @@ First, [create a dashboard parameter](https://docs.devexpress.com/Dashboard/1175
 
 ![Create a Dashboard Parameter](images/create-dashboard-parameter.png)
  
-To allow custom SQL query execution on the server, set the [ASPxDashboard.AllowExecutingCustomSql](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.AllowExecutingCustomSql) property to `true`. To allow users to edit a custom SQL string in the SQL String editor, set the [ASPxDashboard.EnableCustomSql](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.EnableCustomSql) property ro `true`. You can see the query specified for the data source in the [Data Source Wizard](https://docs.devexpress.com/Dashboard/117680):
+To allow custom SQL query execution on the server, set the [`ASPxDashboard.AllowExecutingCustomSql`](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.AllowExecutingCustomSql) property to `true`. To allow users to edit a custom SQL string in the SQL String editor, set the [`ASPxDashboard.EnableCustomSql`](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.EnableCustomSql) property ro `true`. You can see the query specified for the data source in the [Data Source Wizard](https://docs.devexpress.com/Dashboard/117680):
  
 ![Create a Dashboard Parameter](images/data-source-wizard-custom-query.png)
 
