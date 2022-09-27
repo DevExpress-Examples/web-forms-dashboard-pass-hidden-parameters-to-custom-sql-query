@@ -13,7 +13,7 @@
 # Dashboard for Web Forms - How to pass a hidden dashboard parameter to a custom SQL query
 
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t491903/)**
+**[[Run Online]](https://codecentral.devexpress.com/128579884/)**
 <!-- run online end -->
 
 The following example shows how to override an initial or user-defined <a href="https://docs.devexpress.com/Dashboard/117571/building-the-designer-and-viewer-applications/web-dashboard/asp.net-dashboard-control/manage-dashboard-parameters">dashboard parameter</a> value by changing it in the <a href="https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomParameters">ASPxDashboard.CustomParameters</a> event handler. 
