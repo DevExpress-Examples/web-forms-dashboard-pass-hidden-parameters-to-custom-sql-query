@@ -1,17 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{43B114C9-4EDB-47C3-AFE8-354D5616C85A}</ProjectGuid>
-    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASPxDashboard_CustomParameters</RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>ASPxDashboard_CustomParameters</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileUpgradeFlags>
@@ -32,10 +34,10 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>DEBUG,TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -48,28 +50,28 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v22.1.Core" />
-    <Reference Include="DevExpress.Dashboard.v22.1.Core" />
-    <Reference Include="DevExpress.Dashboard.v22.1.Web.WebForms" />
-    <Reference Include="DevExpress.Dashboard.v22.1.Web" />
-    <Reference Include="DevExpress.DataAccess.v22.1" />
-    <Reference Include="DevExpress.Map.v22.1.Core" />
-    <Reference Include="DevExpress.Office.v22.1.Core" />
-    <Reference Include="DevExpress.Pdf.v22.1.Core" />
-    <Reference Include="DevExpress.PivotGrid.v22.1.Core" />
-    <Reference Include="DevExpress.Sparkline.v22.1.Core" />
-    <Reference Include="DevExpress.Data.Desktop.v22.1" />
-    <Reference Include="DevExpress.Utils.v22.1" />
-    <Reference Include="DevExpress.Web.Resources.v22.1" />
-    <Reference Include="DevExpress.Xpo.v22.1" />
-    <Reference Include="DevExpress.XtraCharts.v22.1" />
-    <Reference Include="DevExpress.XtraGauges.v22.1.Core" />
-    <Reference Include="DevExpress.XtraGauges.v22.1.Presets" />
-    <Reference Include="DevExpress.XtraPrinting.v22.1" />
-    <Reference Include="DevExpress.XtraGauges.v22.1.Win" />
-    <Reference Include="DevExpress.XtraMap.v22.1" />
-    <Reference Include="DevExpress.CodeParser.v22.1" />
-    <Reference Include="DevExpress.XtraReports.v22.1" />
+    <Reference Include="DevExpress.Charts.v21.2.Core" />
+    <Reference Include="DevExpress.Dashboard.v21.2.Core" />
+    <Reference Include="DevExpress.Dashboard.v21.2.Web.WebForms" />
+    <Reference Include="DevExpress.Dashboard.v21.2.Web" />
+    <Reference Include="DevExpress.DataAccess.v21.2" />
+    <Reference Include="DevExpress.Map.v21.2.Core" />
+    <Reference Include="DevExpress.Office.v21.2.Core" />
+    <Reference Include="DevExpress.Pdf.v21.2.Core" />
+    <Reference Include="DevExpress.PivotGrid.v21.2.Core" />
+    <Reference Include="DevExpress.Sparkline.v21.2.Core" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2" />
+    <Reference Include="DevExpress.Utils.v21.2" />
+    <Reference Include="DevExpress.Web.Resources.v21.2" />
+    <Reference Include="DevExpress.Xpo.v21.2" />
+    <Reference Include="DevExpress.XtraCharts.v21.2" />
+    <Reference Include="DevExpress.XtraGauges.v21.2.Core" />
+    <Reference Include="DevExpress.XtraGauges.v21.2.Presets" />
+    <Reference Include="DevExpress.XtraPrinting.v21.2" />
+    <Reference Include="DevExpress.XtraGauges.v21.2.Win" />
+    <Reference Include="DevExpress.XtraMap.v21.2" />
+    <Reference Include="DevExpress.CodeParser.v21.2" />
+    <Reference Include="DevExpress.XtraReports.v21.2" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -84,13 +86,13 @@
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
-    <Reference Include="DevExpress.Drawing.v22.1" />
-    <Reference Include="DevExpress.Data.v22.1" />
-    <Reference Include="DevExpress.Web.ASPxThemes.v22.1" />
-    <Reference Include="DevExpress.RichEdit.v22.1.Core" />
-    <Reference Include="DevExpress.RichEdit.v22.1.Export" />
-    <Reference Include="DevExpress.Printing.v22.1.Core" />
-    <Reference Include="DevExpress.Web.v22.1" />
+    <Reference Include="DevExpress.Drawing.v21.2" />
+    <Reference Include="DevExpress.Data.v21.2" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v21.2" />
+    <Reference Include="DevExpress.RichEdit.v21.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v21.2.Export" />
+    <Reference Include="DevExpress.Printing.v21.2.Core" />
+    <Reference Include="DevExpress.Web.v21.2" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
@@ -109,15 +111,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Global.asax.cs">
+    <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
+    <Compile Include="Properties\AssemblyInfo.vb" />
+    <Compile Include="WebForm1.aspx.vb">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
+    <Compile Include="WebForm1.aspx.designer.vb">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -125,7 +127,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>
