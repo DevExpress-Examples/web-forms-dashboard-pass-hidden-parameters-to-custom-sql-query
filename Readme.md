@@ -10,7 +10,7 @@ This example shows how to pass a hidden [dashboard parameter](https://docs.devex
 
 ## Example Overview
 
-To pass a hidden parameter to a custom SQL query, do the following.
+To pass a hidden dashboard parameter to a custom SQL query, do the following.
 
 ### Create a Dashboard Parameter
 
