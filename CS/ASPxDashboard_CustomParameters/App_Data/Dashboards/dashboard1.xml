@@ -7,7 +7,7 @@
       <Query Type="CustomSqlQuery" Name="CustomSqlQuery">
         <Parameter Name="CountryParameter" Type="DevExpress.DataAccess.Expression">(System.String)(?CountryDashboardParameter)</Parameter>
         <Sql>select * from [Invoices]
-where ([Invoices.ShipCountry] = @CountryParameter)</Sql>
+where ([Invoices].[Country] = @CountryParameter)</Sql>
       </Query>
       <ConnectionOptions CloseConnection="true" />
     </SqlDataSource>
@@ -61,12 +61,16 @@ where ([Invoices.ShipCountry] = @CountryParameter)</Sql>
     </Card>
     <Grid ComponentName="gridDashboardItem1" Name="Grid 1" ShowCaption="false" DataSource="DataSource1" DataMember="CustomSqlQuery">
       <DataItems>
-        <Dimension DataMember="ProductName" DefaultId="DataItem0" />
+        <Dimension DataMember="Address" DefaultId="DataItem0" />
         <Measure DataMember="ExtendedPrice" DefaultId="DataItem1" />
+        <Dimension DataMember="City" DefaultId="DataItem2" />
       </DataItems>
       <GridColumns>
         <GridDimensionColumn>
           <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
         </GridDimensionColumn>
         <GridMeasureColumn>
           <Measure DefaultId="DataItem1" />
