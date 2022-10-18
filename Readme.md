@@ -58,5 +58,6 @@ As the result, a user see a dashboard based on the data from the SQL query with 
 
 ## More Examples
 
+- [Dashboard for ASP.NET Core - How to pass a hidden dashboard parameter to a custom SQL query](https://github.com/DevExpress-Examples/asp-net-core-dashboard-pass-hidden-parameters-to-custom-sql-query)
 - [Dashboard for Web Forms - How to specify dashboard parameter values on the client side](https://github.com/DevExpress-Examples/aspxdashboard-how-to-specify-dashboard-parameter-values-on-the-client-side-t495684)
 - [Dashboard for Web Forms - How to update the parameter value when the item's master filter state is changed](https://github.com/DevExpress-Examples/how-to-update-the-parameter-value-when-the-items-master-filter-state-is-changed-t575012)
