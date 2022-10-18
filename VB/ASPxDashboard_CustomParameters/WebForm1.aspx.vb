@@ -12,12 +12,13 @@ Namespace ASPxDashboard_CustomParameters
             Dim dashboardFileStorage As DashboardFileStorage = New DashboardFileStorage("~/App_Data/Dashboards")
             ASPxDashboard1.SetConnectionStringsProvider(New ConfigFileConnectionStringsProvider())
             ASPxDashboard1.SetDashboardStorage(dashboardFileStorage)
+            AddHandler ASPxDashboard1.CustomParameters, AddressOf Me.ASPxDashboard1_CustomParameters
         End Sub
 
         Protected Sub ASPxDashboard1_CustomParameters(ByVal sender As Object, ByVal e As CustomParametersWebEventArgs)
-            Dim custIDParameter = e.Parameters.FirstOrDefault(Function(p) Equals(p.Name, "CustomerIdDashboardParameter"))
-            If custIDParameter IsNot Nothing Then
-                custIDParameter.Value = "ALFKI"
+            Dim countryParam = e.Parameters.FirstOrDefault(Function(p) Equals(p.Name, "CountryDashboardParameter"))
+            If countryParam IsNot Nothing Then
+                countryParam.Value = "Brazil"
             End If
         End Sub
     End Class

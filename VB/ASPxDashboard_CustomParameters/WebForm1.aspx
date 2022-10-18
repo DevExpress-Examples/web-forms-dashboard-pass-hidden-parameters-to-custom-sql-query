@@ -14,7 +14,6 @@
     <form id="form1" runat="server">
     <div style="position:absolute; left:0; right:0; top:0; bottom:0;">
         <dx:ASPxDashboard ID="ASPxDashboard1" runat="server" 
-            OnCustomParameters="ASPxDashboard1_CustomParameters"
             AllowExecutingCustomSql="true"
             EnableCustomSql="true"
             Height="100%" Width="100%">
