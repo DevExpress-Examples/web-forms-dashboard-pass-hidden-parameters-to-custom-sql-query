@@ -24,6 +24,9 @@ To [create a dashboard parameter](https://docs.devexpress.com/Dashboard/117547),
 
 Set the [`ASPxDashboard.AllowExecutingCustomSql`](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.AllowExecutingCustomSql) property to `true` to allow custom SQL query execution on the server. To allow users to edit a custom SQL string in the SQL String editor, set the [`ASPxDashboard.EnableCustomSql`](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.EnableCustomSql) property ro `true`. 
 
+> **Warning**:
+> The use of custom SQL queries can lead to inadvertent or unauthorized modifications to your data/database structure. Ensure that you follow best practices and implement the appropriate user read/write privileges at database level.
+
 You can see the query specified for the data source in the [Data Source Wizard](https://docs.devexpress.com/Dashboard/117680):
  
 ![Create a Dashboard Parameter](images/data-source-wizard-custom-query.png)
@@ -33,9 +36,6 @@ This query contains a query parameter named **CountryParameter**.
 ### Bind the Query Parameter to the Dashboard Parameter
 
 To be able to change the query parameter's value, bind it to the **CountryDashboardParameter** dashboard parameter. To do this, on the second page of the Data Source Wizard set the parameter's type to *Expression* and specify the corresponding dashboard parameter in the *Value* field.
-
-> **Warning**:
-> The use of custom SQL queries can lead to inadvertent or unauthorized modifications to your data/database structure. Ensure that you follow best practices and implement the appropriate user read/write privileges at database level.
 
 ![Create a Dashboard Parameter](images/query-parameter-settings.png)
 
