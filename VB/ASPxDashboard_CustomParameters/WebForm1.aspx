@@ -1,7 +1,7 @@
 <%@ Page Language="VB" AutoEventWireup="true" CodeBehind="WebForm1.aspx.vb" 
     Inherits="ASPxDashboard_CustomParameters.WebForm1" %>
 
-<%@ Register Assembly="DevExpress.Dashboard.v21.2.Web.WebForms, Version=21.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
+<%@ Register Assembly="DevExpress.Dashboard.v21.2.Web.WebForms, Version=21.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     Namespace="DevExpress.DashboardWeb" TagPrefix="dx" %>
 
 <!DOCTYPE html>
